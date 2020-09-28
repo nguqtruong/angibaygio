@@ -1,7 +1,7 @@
 # angibaygio
 This is a toy project generating a random dish name plus a link to google place search.
 
-[**Visit demo site**](https://practical-dijkstra-36bd4a.netlify.app/)
+[**Visit demo site**](https://angibaygio.info/)
 
 ## Development setup
 ```
@@ -30,4 +30,4 @@ make lint
 ## Deployment
 Deploy static site with [Netlify](https://www.netlify.com/)
 
-[**Visit demo site**](https://practical-dijkstra-36bd4a.netlify.app/)
+[**Visit demo site**](https://angibaygio.info/)
