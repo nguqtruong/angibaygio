@@ -22,6 +22,13 @@
       </a>
     </div>
     <div class="regular">Ăn uống vui vẻ nhá!</div>
+    <a href="https://github.com/nqtrg/angibaygio" target="_blank">
+      <img
+        id="github_profile_icon"
+        alt="Github profile"
+        src="./assets/github_icon/github_profile_icon.png"
+      />
+    </a>
   </div>
 </template>
 

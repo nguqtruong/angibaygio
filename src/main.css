@@ -31,3 +31,7 @@ body {
   font-weight: bold;
   text-decoration: none;
 }
+
+#github_profile_icon {
+    width: 2rem;
+}
