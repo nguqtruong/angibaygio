@@ -1,3 +1,7 @@
+body {
+  background-color: rgb(243, 235, 235);
+}
+
 .regular {
   font-size: 3.5vw;
 }
@@ -16,14 +20,14 @@
 }
 
 #suggestion_area {
-    margin-bottom: 5rem;
-    margin-top: 5rem;
+  margin-bottom: 5rem;
+  margin-top: 5rem;
 }
 
 #google_search_link {
   color: #3f51b5;
   cursor: pointer;
-  font-size: 7.5vw;
+  font-size: 9vw;
   font-weight: bold;
   text-decoration: none;
 }
