@@ -1,0 +1,29 @@
+.regular {
+  font-size: 3.5vw;
+}
+
+#app {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-family: sans-serif;
+  margin-top: 60px;
+  text-align: center;
+}
+
+#intro {
+  font-size: 4vw;
+  font-weight: bold;
+}
+
+#suggestion_area {
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+}
+
+#google_search_link {
+  color: #3f51b5;
+  cursor: pointer;
+  font-size: 7.5vw;
+  font-weight: bold;
+  text-decoration: none;
+}

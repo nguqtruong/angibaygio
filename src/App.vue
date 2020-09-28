@@ -1,16 +1,27 @@
 <template>
   <div id="app">
-    <h1>Tốn thời gian suy nghĩ hôm nay ăn gì.</h1>
-    <h2>Thử món này xem:</h2>
-    <a
-      v-bind:href="dish_google_place_search_url"
-      target="_blank"
-      rel="noopener"
-    >
-      {{ dish_name }}
-    </a>
-
-    <p>Ăn vui vẻ nhá!</p>
+    <div id="intro">Không biết hôm nay ăn gì?!</div>
+    <div class="regular">Thử món này xem:</div>
+    <div id="suggestion_area">
+      <a
+        id="google_search_link"
+        v-bind:href="dish_google_place_search_url"
+        target="_blank"
+        rel="noopener"
+      >
+        {{ dish_name }}
+      </a>
+      <br />
+      <a
+        id="google_place_search_url"
+        v-bind:href="dish_google_place_search_url"
+        target="_blank"
+        rel="noopener"
+      >
+        Tìm quán trên bản đồ
+      </a>
+    </div>
+    <div class="regular">Ăn uống vui vẻ nhá!</div>
   </div>
 </template>
 
@@ -40,31 +51,19 @@ var arr = [
   "Thịt dê",
 ];
 
-console.log(arr.length);
 var random_index = Math.floor(Math.random() * arr.length);
-console.log(random_index);
 
 export default {
   name: "App",
   data() {
     var selected_dish_name = arr[random_index];
+    var dish_google_place_search_url =
+      "https://www.google.com/maps/search/" +
+      selected_dish_name.split(" ").join("+");
     return {
       dish_name: selected_dish_name,
-      dish_google_place_search_url:
-        "https://www.google.com/maps/search/" +
-        selected_dish_name.split(" ").join("+"),
+      dish_google_place_search_url: dish_google_place_search_url,
     };
   },
 };
 </script>
-
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
