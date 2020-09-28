@@ -1,27 +1,33 @@
 # angibaygio
+This is a toy project generating a random dish name plus a link to google place search.
 
-## Project setup
+[**Visit demo site**](https://practical-dijkstra-36bd4a.netlify.app/)
+
+## Development setup
 ```
-npm install
+make setup
 ```
 
 ### Compiles and hot-reloads for development
 ```
-npm run serve
+make serve
 ```
 
 ### Compiles and minifies for production
 ```
-npm run build
+make build
 ```
 
 ### Lints and fixes files
 ```
-npm run lint
+make lint
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
-
-### Generate favicon
+## Generate favicon
 [https://favicon.io/favicon-generator/](https://favicon.io/favicon-generator/)
+
+
+## Deployment
+Deploy static site with [Netlify](https://www.netlify.com/)
+
+[**Visit demo site**](https://practical-dijkstra-36bd4a.netlify.app/)
