@@ -30,4 +30,8 @@ make lint
 ## Deployment
 Deploy static site with [Netlify](https://www.netlify.com/)
 
+
+## Analytics
+Using [Google Tag Manager](https://tagmanager.google.com/) and add a [Google Analytics](https://analytics.google.com/analytics/web/) tag.
+
 [**Visit demo site**](https://angibaygio.info/)
