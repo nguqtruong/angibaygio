@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <div id="intro">Không biết hôm nay ăn gì?!</div>
+    <div id="intro">Không biết ăn gì bây giờ?!</div>
     <div class="regular">Thử món này xem:</div>
     <div id="suggestion_area">
       <a
