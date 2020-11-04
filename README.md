@@ -1,5 +1,5 @@
 # angibaygio
-This is a toy project generating a random dish name plus a link to google place search.
+Ăn Gì Bây Giờ - This is a toy project generating a random dish name plus a link to google place search.
 
 [**Visit demo site**](https://angibaygio.info/)
 
